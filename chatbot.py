@@ -22,26 +22,14 @@ country = input("Which is your favourite country? ")
 print ("You surely live in a great country ")
 friend = input("Who is your best friend? ")
 print ("I have a good feeling about "+friend)
-confirm = input("Would you be my friend? ")
+confirm = input("Would you be my friend? (Answer in yes or no) ")
 if confirm == "no":
     print ("Oh :c")
 if confirm == "No":
     print ("Oh :c")
-if confirm == "never":
-    print ("Oh :c")
-if confirm == "Never":
-    print ("Oh :c")
 if confirm == "yes":
     print ("Yay c:!")
 if confirm == "Yes":
-    print ("Yay c:!")
-if confirm == "yeah":
-    print ("Yay c:!")
-if confirm == "Yeah":
-    print ("Yay c:!")
-if confirm == "yep":
-    print ("Yay c:!")
-if confirm == "Yep":
     print ("Yay c:!")
 print ("Ok, I will see you soon!")
 print ("Goodbye!")
