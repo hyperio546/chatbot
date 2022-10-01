@@ -1,6 +1,6 @@
 #Credits to my friend for making this file!
-print ("Welcome to chatbot")
-name = input("What is your name? ")
+print ("Welcome to chatbot!")
+name = input("What is your name?? ")
 print ("Hello "+name)
 age = input("How old are you? ")
 color = input("What is your favourite color? ")
@@ -22,6 +22,11 @@ country = input("Which is your favourite country? ")
 print ("You surely live in a great country ")
 friend = input("Who is your best friend? ")
 print ("I have a good feeling about "+friend)
+life = input("Are you doing good in life? (Answer in yes or no) ")
+if life == "no":
+    print("Well, then always remember you can do good in life wherever or howver you are. Never give up on life.")
+if life == "yes":
+    print("Well, keep striving to do better each and every day!")
 confirm = input("Would you be my friend? (Answer in yes or no) ")
 if confirm == "no":
     print ("Oh :c")
